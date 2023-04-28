@@ -1,0 +1,124 @@
+@media (max-width: 1256px) {
+    .skill-container {
+       
+        grid-template-columns: 20rem 20rem ;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        margin-inline: 12rem;
+        margin-block: 3rem;
+        
+      }
+      #section2{
+        column-gap: 4rem;
+      }
+      #section3{
+        height: 52rem;
+      }
+      .form-right-content{
+        margin-left: 4rem;
+
+      }
+      #nd2 ul{
+        column-gap: 0.6rem;
+    }
+}
+@media (max-width: 950px) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 11rem;
+  }
+  #nd1{
+    margin-left: 0;
+  }
+  .btn{
+    margin-right: 0;
+  }
+  #section1{
+    height: 35rem;
+  }
+  .main-part-2{
+    row-gap: 1.2rem;
+    width: 90%;
+    height: 22rem;
+    align-items: center;
+    /* text-align: center; */
+  }
+  #h1{
+    text-align: center;
+  }
+  .main-part-2 .p1{
+    text-align: center;
+  }
+  .main-part-1 img{
+    height: 24rem;
+    width: 19rem;
+  }
+  #section2{
+    
+    flex-direction: column;
+  }
+  .skill-container{
+    
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  /* .skill{
+    width: 80%;
+  } */
+  #section3{
+    height: 56rem;
+  }
+  #section4{
+    height: 58rem;
+  }
+  #section4 .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* column-gap: 1rem; */
+    row-gap: 2rem;
+    margin-top: 3rem;
+    
+  }
+  .service-1, .service-2, .service-3{
+    height: 11rem;
+    width: 70%;
+
+  }
+  .main-form{
+    flex-direction: column;
+  }
+  #msg{
+    height: 6rem;
+  }
+  .form-left{
+    width: 100%;
+    height: 19rem;
+  }
+  .form-right{
+    width: 100%;
+    height: 13rem;
+  }
+  .form-right-content{
+    height: 12rem;
+    margin-top: 2rem;
+  }
+  .btn2{
+    margin: 0;
+  }
+  
+  #section5{
+    height: 44rem;
+  }
+  .fd1 {
+    display: block;
+   width: 45%;
+  }
+}
